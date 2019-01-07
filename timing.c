@@ -76,12 +76,11 @@ double loop_ttime_sb;
 double loop_srtime_sb;
 double loop_urtime_sb;
  
-// not declared in standard headers
+/*not declared in standard headers*/
 extern void *sbrk(intptr_t); 
 
-// get the resolution of the real time clock
-static double seconds_per_tick()
-{
+/*get the resolution of the real time clock*/
+static double seconds_per_tick(){
     struct timespec res; 
     clock_getres(CLOCK_REALTIME, &res);
     double resolution = res.tv_sec + (((double)res.tv_nsec)/1.0e9);
