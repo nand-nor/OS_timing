@@ -1,4 +1,9 @@
-// Examples of how to call salient timing functions 
+/*
+* Allie Clifford
+* Comp111 Assignment 1: Timing System Calls
+* Date created: 9/16/2018
+* Last modified: 9/20/2018
+*/
 
 #define _POSIX_C_SOURCE 199309 
 #include <stdio.h> 
