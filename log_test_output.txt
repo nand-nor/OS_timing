@@ -1,0 +1,112 @@
+~~~~~~~~~~~~BEGIN TEST~~~~~~~~~~~~
+Starting pthread_mutex_lock() tests
+Completed calls 10000000 to pthread_mutex_lock() on 25 threads
+Average user time for pthread: 6.908609e-07
+Average sys time for pthread: 2.998000e-10
+Starting sem_post() tests
+Completed calls 10000000 to sem_post() on 25 threads
+Average user time for sempost: 1.023760e-06
+Average sys time for sempost: 4.995960e-10
+Starting open() tests
+Completed calls to 100000 open() on 25 threads
+Average user time for open: 1.118126e-04
+Average sys time for open: 6.624931e-05
+Starting sbrk() tests
+Testing small memory requests: 64 bytes
+Completed calls to 100 sbrk() requesting 64 bytes on 25 threads
+Average user time for small sbrk calls: 1.153974e-01
+Average sys time for small sbrk calls: 8.842616e-02
+Testing medium memory requests: 1024 bytes
+Completed calls to 100 sbrk() requesting 1024 bytes on 25 threads
+Average user time for medium sbrk calls: 1.220911e-01
+Average sys time for medium sbrk calls: 1.275722e-01
+Testing large memory requests: 8024 bytes
+Completed calls to 100 sbrk() requesting 8024 bytes on 25 threads
+Average user time for large sbrk calls: 1.261838e-01
+Average sys time for large sbrk calls: 1.546065e-01
+~~~~~~~~~~~~~END TEST~~~~~~~~~~~~~
+~~~~~~~~~~~~BEGIN TEST~~~~~~~~~~~~
+Starting pthread_mutex_lock() tests
+Completed calls 10000000 to pthread_mutex_lock() on 25 threads
+Average user time for pthread: 6.682812e-07
+Average sys time for pthread: 4.395960e-10
+Starting sem_post() tests
+Completed calls 10000000 to sem_post() on 25 threads
+Average user time for sempost: 1.000592e-06
+Average sys time for sempost: 5.235760e-10
+Starting open() tests
+Completed calls to 100000 open() on 25 threads
+Average user time for open: 1.091544e-04
+Average sys time for open: 6.647522e-05
+Starting sbrk() tests
+Testing small memory requests: 64 bytes
+Completed calls to 100 sbrk() requesting 64 bytes on 25 threads
+Average user time for small sbrk calls: 1.143590e-01
+Average sys time for small sbrk calls: 9.138958e-02
+Testing medium memory requests: 1024 bytes
+Completed calls to 100 sbrk() requesting 1024 bytes on 25 threads
+Average user time for medium sbrk calls: 1.176270e-01
+Average sys time for medium sbrk calls: 1.127030e-01
+Testing large memory requests: 8024 bytes
+Completed calls to 100 sbrk() requesting 8024 bytes on 25 threads
+Average user time for large sbrk calls: 1.227496e-01
+Average sys time for large sbrk calls: 1.490670e-01
+~~~~~~~~~~~~~END TEST~~~~~~~~~~~~~
+~~~~~~~~~~~~BEGIN TEST~~~~~~~~~~~~
+Starting pthread_mutex_lock() tests
+Completed calls 10000000 to pthread_mutex_lock() on 25 threads
+Average user time for pthread: 6.419375e-07
+Average sys time for pthread: 3.997000e-10
+Starting sem_post() tests
+Completed calls 10000000 to sem_post() on 25 threads
+Average user time for sempost: 9.778176e-07
+Average sys time for sempost: 3.997000e-10
+Starting open() tests
+Completed calls to 100000 open() on 25 threads
+Average user time for open: 1.076791e-04
+Average sys time for open: 6.990233e-05
+Starting sbrk() tests
+Testing small memory requests: 1024 bytes
+Completed calls to 100 sbrk() requesting 1024 bytes on 25 threads
+Average user time for small sbrk calls: 1.111722e-01
+Average sys time for small sbrk calls: 9.244317e-02
+Testing medium memory requests: 8192 bytes
+Completed calls to 100 sbrk() requesting 8192 bytes on 25 threads
+Average user time for medium sbrk calls: 1.165695e-01
+Average sys time for medium sbrk calls: 1.304316e-01
+Testing large memory requests: 65536 bytes
+Completed calls to 100 sbrk() requesting 65536 bytes on 25 threads
+Average user time for large sbrk calls: 1.213984e-01
+Average sys time for large sbrk calls: 1.706660e-01
+~~~~~~~~~~~~~END TEST~~~~~~~~~~~~~
+Start time (monotonic): Sat Jan 17 19:50:40 1970
+
+~~~~~~~~~~~~BEGIN TEST~~~~~~~~~~~~
+Starting pthread_mutex_lock() tests
+Completed calls 10000000 to pthread_mutex_lock() on 25 threads
+Average user time for pthread: 1.188222e-06
+Average sys time for pthread: 5.131800e-10
+Starting sem_post() tests
+Completed calls 10000000 to sem_post() on 25 threads
+Average user time for sempost: 1.820957e-06
+Average sys time for sempost: 7.155600e-10
+Starting open() tests
+Completed calls to 100000 open() on 25 threads
+Average user time for open: 1.954527e-04
+Average sys time for open: 2.316444e-04
+Starting sbrk() tests
+Testing small memory requests: 1024 bytes
+Completed calls to 1000 sbrk() requesting 1024 bytes on 25 threads
+Average user time for small sbrk calls: 2.043336e-02
+Average sys time for small sbrk calls: 4.995689e-02
+Testing medium memory requests: 8192 bytes
+Completed calls to 1000 sbrk() requesting 8192 bytes on 25 threads
+Average user time for medium sbrk calls: 2.129610e-02
+Average sys time for medium sbrk calls: 8.723496e-02
+Testing large memory requests: 65536 bytes
+Completed calls to 1000 sbrk() requesting 65536 bytes on 25 threads
+Average user time for large sbrk calls: 2.213151e-02
+Average sys time for large sbrk calls: 1.241410e-01
+~~~~~~~~~~~~~END TEST~~~~~~~~~~~~~
+Start time (monotonic): Tue Feb  3 20:41:46 1970
+
